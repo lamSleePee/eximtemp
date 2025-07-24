@@ -9,22 +9,22 @@ function CommunityService(){
 
                 <div className="csr-points-container">
                     <div className="csr-points">
-                        <h3>🌱 Sustainable by Design</h3>
+                        <h3>Sustainable by Design</h3>
                         <p>We use eco-friendly, recyclable, and biodegradable packaging to reduce waste and protect the planet.</p>
                     </div>
 
                     <div className="csr-points">
-                        <h3>📚 Empowering Young Minds</h3>
+                        <h3>Empowering Young Minds</h3>
                         <p>A part of every trade supports education for underprivileged children through supplies and scholarships.</p>
                     </div>
 
                     <div className="csr-points">
-                        <h3>💖 Dignity for Her</h3>
+                        <h3>Dignity for Her</h3>
                         <p>We provide free sanitary napkins and hygiene kits to women in rural and underserved communities.</p>
                     </div>
 
                     <div className="csr-points">
-                        <h3>🍲 Nourishing Lives</h3>
+                        <h3>Nourishing Lives</h3>
                         <p>We contribute to food relief efforts, feeding families, orphanages, and communities in need.</p>
                     </div>
                 </div>
