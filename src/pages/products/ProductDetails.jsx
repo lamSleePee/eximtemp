@@ -29,7 +29,8 @@ function ProductDetails() {
         <Link className="ProductContactBtn" to={"/contactus"}>Contact Us</Link>
       </div>
     </div>
-    {product.name === "Spices" && <SpiceShowcase />}
+    {["Turmeric", "Cumin", "Coriander", "Cardamom", "Spices"].includes(product.name) && <SpiceShowcase />}
+
     <section className="products">
         <h2>More Products</h2>
         <ProductShowcase />

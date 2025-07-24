@@ -71,6 +71,41 @@ const productData = [
     description:
       "Biomass briquettes, pellets, and agri-waste fuels for clean energy. Supports sustainable energy solutions for industries and municipalities shifting toward greener fuel alternatives.",
   },
+
+  {
+    
+    slug: "turmeric",
+    name: "Turmeric",
+    image: "/turmeric.jpg",
+    description:
+      "Turmeric is a golden-yellow spice known for its earthy flavor and anti-inflammatory properties. Used widely in Indian cuisine and traditional medicine.",
+  },
+  {
+    
+    slug: "cumin",
+    name: "Cumin",
+    image: "/cumin.jpg",
+    description:
+      "Cumin seeds have a warm, earthy flavor and are commonly used in spice blends like garam masala. Known for aiding digestion.",
+  },
+  {
+    
+    slug: "coriander",
+    name: "Coriander",
+    image: "/coriander.jpg",
+    description:
+      "Coriander seeds have a lemony citrus flavor and are used in Indian, Middle Eastern, and Asian cuisine. They are also rich in antioxidants.",
+  },
+  {
+    
+    slug: "cardamom",
+    name: "Cardamom",
+    image: "/cardamom.jpg",
+    description:
+      "Cardamom is a highly aromatic spice with a sweet and spicy flavor. It’s a key ingredient in chai and many Indian desserts.",
+  },
+
+
 ];
 
 
