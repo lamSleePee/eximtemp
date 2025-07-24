@@ -1,0 +1,58 @@
+.mainContactus{
+  display: flex;
+}
+.textContactSection{
+  flex: 1fr;
+  max-width: 30%;
+}
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .contact-container h2 {
+    text-align: center;
+    color: #00478F;
+    margin-bottom: 1.5rem;
+    font-size: xx-large;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  button:hover {
+  
+  }
+  

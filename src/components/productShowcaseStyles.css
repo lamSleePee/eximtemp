@@ -1,0 +1,151 @@
+.productShowcase {
+    height: 450px;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+  }
+  
+  .innerProductShowcase {
+    margin-top: 80px;
+  }
+  
+  .productBox {
+    background-color: white;
+    border: none;
+    color: black;
+    height: 450px;
+    width: 400px;
+    border-radius: 50px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column; /* Stack image and info vertically */
+    justify-content: space-between; /* Push button to bottom */
+    position: relative; /* For consistent positioning */
+    
+  }
+  
+  .productImg {
+    border-radius: 45px 45px 0px 0px;
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%; /* Image covers 70% of the card */
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    object-fit: cover;
+    filter: brightness(100%);
+  }
+  
+  .productImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border: none;
+  }
+  
+  .productInfo {
+    width: 100%;
+    text-align: center;
+    padding: 10px; /* Padding for name and button */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between name and button */
+    height: 30%; /* Remaining 30% for name and button */
+  }
+  
+  .name {
+    margin: 10px 0; /* Simplified spacing */
+    font-size: 24px; /* Slightly smaller for simplicity */
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center; /* Centered for simple look */
+    
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Keeps it on one line for shortness */
+  }
+  
+  .more-btn {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(0, 99, 136);
+    padding: 6px 2px;
+    border-radius: 100px;
+    font-size: larger;
+    border: solid 0px rgb(0, 108, 223);
+    text-align: center;
+    transition-duration: 300ms;
+    display: block; /* Ensures full width for consistency */
+    margin: 0 auto; /* Centers the button */
+  }
+  
+  .more-btn:hover {
+    background-color: rgb(0, 132, 209);
+    color: white;
+    transition-duration: 300ms;
+  }
+  
+  .productsSliderProperty > div > div > div > div {
+    margin: 0px 50px 0px 50px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #ff4400; /* Vibrant Orange */
+    font-size: 25px; /* Optional: Adjust arrow size */
+  }
+  
+
+  /* Existing styles remain unchanged; adding mobile optimizations below */
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+    .productShowcase {
+      height: auto; /* Allow flexible height on mobile */
+      width: 100%; /* Full width */
+      margin: auto;
+      overflow: hidden;
+    }
+  
+    .innerProductShowcase {
+      margin-top: 40px; /* Reduced top margin for mobile */
+    }
+  
+    .productBox {
+      width: 90%; /* Nearly full width for single slide */
+      margin: 10px auto; /* Center with smaller margins */
+      height: 400px; /* Flexible height */
+    }
+  
+    .productImg {
+      height: 60%; /* Slightly smaller image dominance on mobile */
+    }
+  
+    .name {
+      font-size: 20px; /* Smaller font for mobile readability */
+    }
+  
+    .more-btn {
+      margin-top: 5px;
+      padding: 8px 16px; /* Smaller button for touch */
+      font-size: 1rem;
+    }
+  
+    /* Adjust slider arrows for mobile */
+    .slick-prev:before,
+    .slick-next:before {
+      font-size: 20px; /* Smaller arrows */
+    }
+  
+    .slick-dots {
+      bottom: 10px; /* Position dots for mobile */
+    }
+
+    .slick-track{
+        width: 786px;
+      }
+  }
+  

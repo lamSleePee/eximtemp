@@ -1,0 +1,149 @@
+.footer-outer {
+    height: auto; /* Changed to auto for mobile flexibility (was fixed 300px) */
+    min-height: 300px; /* Maintain minimum height for desktop feel */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 50px;
+    justify-content: space-between; /* Added for better desktop spacing */
+    align-items: flex-start; /* Align items to top */
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .footer-outer h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .footer-outer p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .socials {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+    align-items: center;
+  }
+  
+  .socials i {
+    max-width: fit-content;
+    transition-duration: 300ms;
+    cursor: pointer; /* Better for touch/click */
+  }
+  
+  .social-media-icons{
+    display: flex;
+    justify-content: center; /* Center icons */
+    gap: 15px; /* Smaller gap between icons */
+    flex-direction: column;
+    font-size: 35px;
+  }
+
+  .LinkedIn:hover {
+    color: #0072b1;
+  }
+  
+  .Whatsapp:hover {
+    color: #25d366;
+  }
+  
+  .Instagram:hover {
+    color: #e1306c;
+  }
+  
+  .Twitter:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .socials p {
+    font-size: 30px;
+  }
+  
+  .contactinfo {
+    flex: 2;
+  }
+  
+  .socials {
+    flex: 2;
+  }
+  
+  .license {
+    flex: 2;
+    text-align: center; /* Center the license text */
+    font-size: 1.2rem; /* Slightly larger for emphasis */
+    align-self: center; /* Vertically center in its flex item */
+  }
+  .footercoms{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+  }
+
+  .license>img{
+    height: 100px;
+    border: none;
+  }
+  /* Mobile Optimizations (Media Queries) */
+  @media (max-width: 768px) {
+    .footer-outer {
+      flex-direction: column-reverse; /* Stack sections vertically */
+      padding: 30px 20px; /* Reduce padding for smaller screens */
+      min-height: auto; /* Allow natural height */
+      align-items: center; /* Center everything */
+      text-align: center; /* Center text */
+    }
+  
+    .footer-outer h2 {
+      font-size: 1.5rem; /* Smaller heading */
+      margin-bottom: 20px;
+    }
+  
+    .footer-outer p {
+      font-size: 1rem; /* Smaller text */
+      margin-bottom: 15px;
+    }
+  
+    .socials {
+      flex-direction: column; /* Horizontal icons on mobile for compactness */
+      gap: 15px; /* Smaller gap */
+      font-size: 2rem; /* Larger icons for easy tapping */
+      margin: 20px 0; /* Add vertical spacing */
+    }
+
+    .social-media-icons{
+      display: flex;
+      justify-content: center; /* Center icons */
+      gap: 15px; /* Smaller gap between icons */
+      flex-direction: row;
+    }
+  
+    .socials p {
+      font-size: 1.2rem; /* Smaller label */
+      margin-bottom: 10px;
+    }
+  
+    .socials i {
+      padding: 10px; /* Larger touch target */
+    }
+  
+    .license {
+      margin-top: 20px; /* Space above license */
+      font-size: 1rem; /* Smaller text */
+    }
+  
+    /* Remove flex grow on mobile since stacking */
+    .contactinfo,
+    .socials,
+    .license {
+      flex: none; /* Reset flex grow */
+      width: 100%; /* Full width for each section */
+    }
+  }
+  

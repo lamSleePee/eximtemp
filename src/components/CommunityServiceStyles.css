@@ -1,0 +1,144 @@
+.csr-main-div{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 40;
+    border: solid 3px rgb(0, 107, 0);
+    border-radius: 30px;
+    background-color: rgba(255, 243, 177, 0.03);
+    padding: 30px;
+
+}
+
+.csr-text{
+    width: 2fr;
+}
+
+.csr-text>h2{
+    color: green;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.csr-text>p{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 51, 0);
+}
+
+.csr-points-container{
+    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+        gap: 20px; /* spacing between boxes */
+        padding: 20px;
+        overflow: scroll;
+      
+}
+.csr-points-container::-webkit-scrollbar{
+display: none;
+}
+
+.csr-points{
+    background-color: rgba(245, 255, 236, 0.808);
+    padding: 5px;
+    border-radius: 20px;
+    border: solid 3px rgb(0, 51, 0);
+    height: 120px;
+    justify-items: center;
+    overflow: scroll;
+}
+
+.csr-points::-webkit-scrollbar{
+    display: none;
+}
+
+.csr-points>h3{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    color: rgb(20, 67, 0);
+}
+
+.csr-points>p{
+    width: 90%;
+    
+}
+
+.csr-image{
+    width: 1fr;
+    object-fit: contain;
+}
+
+.csr-image>img{
+    width: 100%;
+    height: auto;
+    border: none;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .csr-main-div {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 20px;
+        align-items: center;
+        background-color: rgb(0, 45, 0);
+      }
+    
+      .csr-text {
+        width: 100%;
+      }
+    
+      .csr-text > h2 {
+        font-size: 32px;
+        text-align: center;
+        color: white;
+      }
+    
+      .csr-text > p {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        color: white;
+      }
+    
+      .csr-points-container {
+        grid-template-columns: 1fr; /* single column grid */
+        padding: 10px;
+        
+      }
+    
+      .csr-points {
+        height: auto;
+        padding: 15px;
+        text-align: center;
+        border: solid rgb(180, 255, 140);
+      }
+    
+      .csr-points > p {
+        width: 100%;
+        font-size: 14px;
+      }
+    
+      .csr-image {
+        width: 90%;
+        overflow: hidden;
+        border-radius: 20px;
+      }
+    
+      .csr-image > img {
+        transform: scale(1.3); /* zooms in by 10% */
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+}

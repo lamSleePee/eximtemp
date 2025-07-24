@@ -1,0 +1,80 @@
+.product-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+  align-items: flex-start;
+}
+
+.product-image {
+  flex: 1 1 40%;
+}
+
+.product-image img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+  flex: 1 1 55%;
+}
+
+.product-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #00478F;
+  margin-bottom: 1.5rem;
+}
+
+.product-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.not-found {
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: red;
+}
+
+
+
+
+.ProductContactBtn{
+  border: solid  #00478f ;
+  height: fit-content;
+  width: fit-content;
+  padding: 8px 5px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #00478F;
+  text-decoration: none;
+  text-decoration: none;
+  color: #00478F;
+  font-size: large;
+  font-weight: 400;
+}
+
+.contactusPageButton:hover{
+  background-color: #00478F;
+  color: #ffffff;
+  transition-duration: 250ms;
+}
+
+.ProductContactBtn:hover{
+  background-color: #00478F;
+  color: #ffffff;
+  transition-duration: 250ms;
+  color: #ffffff;
+  background-color: #00478F;
+  transition-duration: 250ms;
+}
+
+

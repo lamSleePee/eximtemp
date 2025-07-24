@@ -1,0 +1,159 @@
+.header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header>img {
+  
+   max-height: 100%;
+}
+.header-logo-link{
+  height: 70px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-right: 20px; 
+    width: 600px;  
+}
+.header ul li{
+    display: inline;
+    height: 100%;
+    text-decoration: none;
+}
+
+.navbarlink{
+    text-decoration: none;
+    color: #00478F;
+    font-size: large;
+}
+
+.navbarlink:hover{
+    text-decoration: underline;
+    color: rgb(196, 196, 196);
+    transition-duration: 250ms;
+}/* Original styles (unchanged) */
+.header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center; /* Added for better vertical alignment */
+    position: sticky; /* Optional: Makes header sticky on scroll */
+    top: 0;
+    z-index: 50;
+    width: 100%; /* Ensures full width */
+  }
+  
+  img {
+    border: solid white 5px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-right: 20px;
+    width: 600px;
+  }
+  
+  .header ul li {
+    display: inline;
+    height: 100%;
+    text-decoration: none;
+  }
+  
+  .navbarlink {
+    text-decoration: none;
+    color:  #00478F;
+    font-size: large;
+  }
+  
+  .navbarlink:hover {
+    text-decoration: underline;
+    color: rgb(196, 196, 196);
+    transition-duration: 250ms;
+  }
+  
+  /* New styles for mobile optimization */
+  
+  /* Hide mobile menu button on desktop */
+  .header-mobile-menu {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color:#00478F;
+    font-size: 1.5rem; /* Size of hamburger icon */
+  }
+  
+  /* Mobile menu icon */
+  .header-mobile-icon {
+    font-size: 1.5rem;
+  }
+  
+  /* Nav container for toggle */
+  .header-nav {
+    /* No changes needed here for desktop */
+  }
+  
+  /* Mobile menu open state */
+  .header-nav-open {
+    display: block !important; /* Show on toggle */
+    position: absolute;
+    top: 100%; /* Position below header */
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Match header background */
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for dropdown */
+    z-index: 40;
+    transition: all 0.3s ease; /* Smooth open/close */
+    
+  }
+  
+  /* Responsive media query for mobile (screens <= 768px) */
+  @media (max-width: 768px) {
+    .header {
+      justify-content: space-between; /* Keep logo and hamburger at ends */
+      padding: 0; /* Slightly more padding for touch */
+    }
+  
+    /* Hide full nav by default on mobile */
+    .header-nav {
+      display: none;
+    }
+  
+    /* Show hamburger button on mobile */
+    .header-mobile-menu {
+      display: block;
+      width: fit-content;
+    }
+  
+    /* When open, stack the list vertically */
+    .header-nav-open ul {
+      flex-direction: column; /* Vertical stack */
+      gap: 20px; /* Smaller gap for mobile */
+      width: 100%; /* Full width */
+      align-items: center; /* Center items */
+    }
+  
+    .header-nav-open li {
+      text-align: center; /* Center text */
+      width: 100%; /* Full width for touch targets */
+      padding: 10px 0; /* Larger touch area */
+    }
+  
+    .header-nav-open .navbarlink {
+      font-size: 1.2rem; /* Slightly larger for mobile readability */
+    }
+  }
+  
