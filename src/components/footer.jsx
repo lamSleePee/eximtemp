@@ -23,7 +23,8 @@
             <div className="license">
                 
                 <img src="/Logo.png" alt="" />
-                    <p className="copyrightfooter">© Exim Pinnacle Enterprices, 2025</p>
+                    <p className="copyrightfooter">© Exim Pinnacle, 2025</p>
+                    <p className="copyrightfooter">All Rights Reserved</p>
             </div>
         </div>
     )
