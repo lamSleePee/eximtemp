@@ -76,7 +76,7 @@ const productData = [
     
     slug: "turmeric",
     name: "Turmeric",
-    image: "/turmeric.jpg",
+    img: "/turmeric.jpg",
     description:
       "Turmeric is a golden-yellow spice known for its earthy flavor and anti-inflammatory properties. Used widely in Indian cuisine and traditional medicine.",
   },
@@ -84,7 +84,7 @@ const productData = [
     
     slug: "cumin",
     name: "Cumin",
-    image: "/cumin.jpg",
+    img: "/cumin.jpg",
     description:
       "Cumin seeds have a warm, earthy flavor and are commonly used in spice blends like garam masala. Known for aiding digestion.",
   },
@@ -92,7 +92,7 @@ const productData = [
     
     slug: "coriander",
     name: "Coriander",
-    image: "/coriander.jpg",
+    img: "/coriander.jpg",
     description:
       "Coriander seeds have a lemony citrus flavor and are used in Indian, Middle Eastern, and Asian cuisine. They are also rich in antioxidants.",
   },
@@ -100,7 +100,7 @@ const productData = [
     
     slug: "cardamom",
     name: "Cardamom",
-    image: "/cardamom.jpg",
+    img: "/cardamom.jpg",
     description:
       "Cardamom is a highly aromatic spice with a sweet and spicy flavor. It’s a key ingredient in chai and many Indian desserts.",
   },
