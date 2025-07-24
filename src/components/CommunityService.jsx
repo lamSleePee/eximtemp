@@ -5,7 +5,7 @@ function CommunityService(){
         <div className="csr-main-div">
             <div className="csr-text">
                 <h2>Driving Impact Beyond Business</h2>
-                <p>At Exim Pinnacle, we believe that businesses thrive when communities thrive. Our Corporate Social Responsibility (CSR) initiatives are driven by a deep commitment to sustainability, inclusion, and social impact. We don't just aim to do business—we strive to do good.</p>
+                <p>At Exim Pinnacle, we believe that businesses thrive when communities thrive. Our Helping Hands initiatives are driven by a deep commitment to sustainability, inclusion, and social impact. We don't just aim to do business—we strive to do good.</p>
 
                 <div className="csr-points-container">
                     <div className="csr-points">
