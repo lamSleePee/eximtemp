@@ -1,0 +1,56 @@
+.certification-container {
+    background-color: #ffffff;
+    padding: 20px 10px;
+    overflow: hidden;
+    border-radius: 40px;
+    margin: 20px;
+    border: solid rgb(11, 86, 165) 5px;
+  }
+  
+  .certification-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .certification-slider {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .certification-track {
+    display: flex;
+    width: fit-content;
+    animation: scroll-left 30s linear infinite;
+  }
+  
+  .certification-img {
+    width: 100px;
+    height: auto;
+    margin: 0 20px;
+    object-fit: contain;
+    border: none;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .certification-img {
+      width: 120px;
+      margin: 0 10px;
+    }
+  
+    .certification-title {
+      font-size: 1.2rem;
+    }
+  }
+  

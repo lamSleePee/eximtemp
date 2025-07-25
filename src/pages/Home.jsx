@@ -4,6 +4,7 @@ import ProductShowcase from "../components/productShowcase";
 import CommunityService from "../components/CommunityService";
 import GooglemapsLocation from "../components/GoogleMapsLocation";
 import VisionMission from "../components/VisionMission";
+import CertificationSlider from "../components/CertificationSlider";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,7 +13,7 @@ import "./homestyles.css";
 
 function Home() {
   var settings = {
-    arrows: false, // Default off for desktop
+    arrows: false, 
     dots: true,
     infinite: true,
     speed: 500,
@@ -20,16 +21,16 @@ function Home() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    responsive: [ // Added for mobile: enable arrows for touch navigation
+    responsive: [ 
       {
         breakpoint: 768,
         settings: {
-          arrows: true, // Enable arrows on mobile
+          arrows: true, 
           dots: true
         }
       }
     ]
-    //help
+    
   };
 
   return (
@@ -57,7 +58,7 @@ function Home() {
       {/* End of hero section */}
               <HomepageAbout />
       {/* About section */}
-              
+        <CertificationSlider />
          < VisionMission />
 
       {/* Product showcase */}

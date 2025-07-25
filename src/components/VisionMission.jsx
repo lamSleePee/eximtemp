@@ -22,6 +22,8 @@ function VisionMission(){
                     </div>
                 </div>
             </div>
+
+            
         </>
     )
 }
