@@ -33,6 +33,7 @@ function CommunityService(){
             <div className="csr-image">
                 <img src="/csr-sectionimage.jpg" alt="" />
             </div>
+            
         </div>
     </>
   );

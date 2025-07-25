@@ -46,3 +46,30 @@
     text-decoration: none;
 }
 
+@media (max-width: 768px) {
+    .gmap-main {
+      flex-direction: column;
+      height: auto;
+      margin: 10px;
+      border-radius: 20px;
+    }
+  
+    .gmap-text,
+    .gmap-embed {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .gmap-text h2 {
+      font-size: 36px;
+    }
+  
+    .gmap-text p {
+      font-size: 16px;
+    }
+  
+    .gmap-embed iframe {
+      width: 100% !important;
+      height: 250px !important;
+    }
+  }
