@@ -1,0 +1,48 @@
+.gmap-main{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    border: solid 3px #4a89f3;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #e3ecee5d;
+     
+}
+
+.gmap-text{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.gmap-text h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(247, 181, 41);
+}
+
+.gmap-text p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(15, 148, 0);
+}
+
+.gmap-embed{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gmap-icon{
+    color: rgb(0, 0, 0) ;
+    font-weight: 100;
+    text-decoration: none;
+}
+

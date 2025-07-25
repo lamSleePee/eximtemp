@@ -2,6 +2,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import ProductShowcase from "../components/productShowcase";
 import CommunityService from "../components/CommunityService";
+import GooglemapsLocation from "../components/GoogleMapsLocation";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -63,8 +64,9 @@ function Home() {
         <ProductShowcase />
       </section>
       
-        <CommunityService/>
-      
+        <CommunityService />
+        
+        <GooglemapsLocation />
 
       <Footer />
     </>
