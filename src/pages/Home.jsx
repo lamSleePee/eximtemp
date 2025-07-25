@@ -3,6 +3,7 @@ import Footer from "../components/footer";
 import ProductShowcase from "../components/productShowcase";
 import CommunityService from "../components/CommunityService";
 import GooglemapsLocation from "../components/GoogleMapsLocation";
+import VisionMission from "../components/VisionMission";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -56,7 +57,8 @@ function Home() {
       {/* End of hero section */}
               <HomepageAbout />
       {/* About section */}
- 
+              
+         < VisionMission />
 
       {/* Product showcase */}
       <section className="products">
