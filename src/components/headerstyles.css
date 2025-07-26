@@ -129,6 +129,11 @@ ul{
       justify-content: space-between; /* Keep logo and hamburger at ends */
       padding: 0; /* Slightly more padding for touch */
     }
+    .header-logo-link{
+      height: 70px;
+      transform: scale(1);
+      border: none;
+    }
   
     /* Hide full nav by default on mobile */
     .header-nav {
