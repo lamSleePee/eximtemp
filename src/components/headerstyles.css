@@ -11,6 +11,8 @@
 }
 .header-logo-link{
   height: 70px;
+  transform: scale(1.1);
+  border: none;
 }
 ul{
     list-style: none;

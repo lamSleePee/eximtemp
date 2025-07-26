@@ -1,5 +1,6 @@
 import Header from "../components/header"
 import './ContactUsStyles.css';
+import GooglemapsLocation from "../components/GoogleMapsLocation";
 import Footer from "../components/footer";
 
 function ContactUs(){
@@ -62,6 +63,7 @@ function ContactUs(){
         <button type="submit">Send Message</button>
       </form>
     </div>
+      <GooglemapsLocation/>
   <Footer />
         </>
     )

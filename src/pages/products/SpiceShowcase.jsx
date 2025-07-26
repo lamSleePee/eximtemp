@@ -11,6 +11,8 @@ const spices = [
 ];
 
 const SpiceShowcase = () => {
+
+
   return (
 
     <>

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Header from "../components/header"; // Adjust path as needed
 import Footer from "../components/footer"; // Adjust path as needed
+import VisionMission from "../components/VisionMission";
 import "./aboutStyles.css"; // Link to the CSS file below
 
 function AboutUs() {
@@ -150,6 +151,7 @@ function AboutUs() {
             </div>
         </section>
         
+        <VisionMission/>
         <section className="ctaabout">
             <h2>Why Choose Exim Pinnacle?</h2>
             <p>Because we prioritize relationships, not just transactions. Because we believe in sustainable, ethical, and growth-driven trade. Because we're always one step ahead to keep your supply chain moving.</p>

@@ -1,6 +1,8 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ScrollToTop from "./ScrollToTop";
+import React, { useEffect } from "react";
 
 import './productShowcaseStyles.css';
 import { Link } from "react-router-dom";
@@ -33,9 +35,14 @@ function ProductShowcase() {
       }
     ]
   };
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when component mounts
+  }, []);
+
 
   return (
     <>
+    <ScrollToTop />
       <div className="productShowcase">
         <div className="innerProductShowcase">
           <Slider className="productsSliderProperty" {...settings}>

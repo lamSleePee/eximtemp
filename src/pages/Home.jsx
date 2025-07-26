@@ -59,7 +59,6 @@ function Home() {
               <HomepageAbout />
       {/* About section */}
         <CertificationSlider />
-         < VisionMission />
 
       {/* Product showcase */}
       <section className="products">
@@ -69,7 +68,7 @@ function Home() {
       
         <CommunityService />
         
-        <GooglemapsLocation />
+        
 
       <Footer />
     </>

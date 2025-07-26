@@ -1,11 +1,10 @@
 .vismis-main{
     display: flex;
-    margin: 20px;
     padding: 30px;
-    border-radius: 40px;
+    border-radius: 10px;
     background-color: #2a5298;
     justify-content: center;
-    
+    margin-bottom: 20px;
 }
 
 .vismis-container{

@@ -2,7 +2,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import './ProductDetails.css';
-
+import ScrollToTop from '../../components/ScrollToTop';
 const spiceData = {
   turmeric: {
     name: 'Turmeric',
@@ -35,7 +35,9 @@ function SpiceDetails() {
   }
 
   return (
+
     <div className="product-details">
+      <ScrollToTop/>
       <h1>{spice.name}</h1>
       <img src={spice.image} alt={spice.name} className="spice-image" />
       <p>{spice.description}</p>
