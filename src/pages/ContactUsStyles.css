@@ -56,3 +56,126 @@
   
   }
   
+
+/*   added a sectioin to right of form */
+
+.main-contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full height of viewport */
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #f7f7f7;
+  flex-wrap: wrap;
+}
+
+/* Left Text Column */
+.contact-text-section {
+  flex: 1;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  color: #333;
+  font-size: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  max-width: 100%;
+  min-height: 500px; /* optional: ensures it feels balanced */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-text-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #00478F;
+}
+
+.contact-text-section p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+/* Right Form Column */
+.contact-container {
+  flex: 1;
+  max-width: 100%;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  
+}
+
+.contact-text-section{
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* This is the key to equal height */
+  min-height: 100vh;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #f7f7f7;
+  flex-wrap: wrap;
+}
+
+.contact-container h2 {
+  text-align: center;
+  color: #00478F;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  color: white;
+  background-color: #00478F;
+  font-weight: bold;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #003870;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .main-contact-us {
+    flex-direction: column;
+    min-height: auto;
+    padding: 1.5rem 1rem;
+  }
+
+  .contact-text-section,
+  .contact-container {
+    width: 100%;
+    padding: 1.5rem;
+  }
+}
