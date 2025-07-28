@@ -81,19 +81,17 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   max-width: 100%;
   min-height: 500px; /* optional: ensures it feels balanced */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  
 }
 
 .contact-text-section h2 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  
   color: #00478F;
 }
 
 .contact-text-section p {
-  margin-bottom: 1rem;
+  
   line-height: 1.5;
 }
 
@@ -113,9 +111,9 @@
 }
 
 .contact-text-section{
-  display: flex;
+
   justify-content: center;
-  align-items: stretch; /* This is the key to equal height */
+  
   min-height: 100vh;
   padding: 2rem;
   gap: 2rem;

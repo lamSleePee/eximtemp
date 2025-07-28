@@ -12,7 +12,7 @@ function AboutUs() {
       {/* Hero Section */}
       <div className="aboutHeader">
         <div className="container">
-            <h1>About Exim Pinnacle</h1>
+            <h1>About Us</h1>
             <p>Bridging global markets through ethical, reliable, and high-quality import-export services</p>
         </div>
     </div>
@@ -33,7 +33,7 @@ function AboutUs() {
                 </div>
             </div>
         </section>
-        
+        <VisionMission/>
         <section  className="sectionabout">
             <h2>What We Do</h2>
             <p>We specialize in sourcing and supplying high-demand products across a range of industries, tailored to meet regional standards and customer expectations.</p>
@@ -151,7 +151,7 @@ function AboutUs() {
             </div>
         </section>
         
-        <VisionMission/>
+        
         <section className="ctaabout">
             <h2>Why Choose Exim Pinnacle?</h2>
             <p>Because we prioritize relationships, not just transactions. Because we believe in sustainable, ethical, and growth-driven trade. Because we're always one step ahead to keep your supply chain moving.</p>
