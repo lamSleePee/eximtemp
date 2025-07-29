@@ -43,16 +43,16 @@ function ContactUs() {
               <label>Product:</label>
               <select name="entry.1010087726" required>
                 <option value="">-- Select a Product --</option>
-                <option value="Apparel & Textile Solutions">Apparel & Textile Solutions</option>
-                <option value="Eco-Engineered Jute Products">Eco-Engineered Jute Products</option>
-                <option value="Nutraceutical-Grade Makhana">Nutraceutical-Grade Makhana</option>
-                <option value="Premium Leather Goods">Premium Leather Goods</option>
-                <option value="Artisan-Crafted Handicrafts">Artisan-Crafted Handicrafts</option>
-                <option value="Gourmet-Grade Spices">Gourmet-Grade Spices</option>
-                <option value="High-Purity Egg Powder">High-Purity Egg Powder</option>
-                <option value="Dehydrated Agro Products">Dehydrated Agro Products</option>
-                <option value="Heritage Carpets & Floor Textiles">Heritage Carpets & Floor Textiles</option>
-                <option value="Next-Gen Biofuels & Commodities">Next-Gen Biofuels & Commodities</option>
+                <option value="Apparel & Textile Solutions">Apparel</option>
+                <option value="Eco-Engineered Jute Products">Jute</option>
+                <option value="Nutraceutical-Grade Makhana">Makhana</option>
+                <option value="Premium Leather Goods">Leather Goods</option>
+                <option value="Artisan-Crafted Handicrafts">Handicrafts</option>
+                <option value="Gourmet-Grade Spices">Spices</option>
+                <option value="High-Purity Egg Powder">Egg Powder</option>
+                <option value="Dehydrated Agro Products">Agro Products</option>
+                <option value="Heritage Carpets & Floor Textiles">Carpets</option>
+                <option value="Next-Gen Biofuels & Commodities">Biofuels</option>
               </select>
             </div>
 

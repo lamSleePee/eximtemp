@@ -10,6 +10,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import HomepageAbout from "../components/HomepageAbout";
 import "./homestyles.css";
+import WhyChooseUs from "../components/WhyChooseUs";
 
 function Home() {
   var settings = {
@@ -67,10 +68,9 @@ function Home() {
       </section>
       
         <CommunityService />
-        
-        
-
-      <Footer />
+        {/* Why Choose Us section */}
+        <WhyChooseUs />
+        <Footer />
     </>
   );
 }
