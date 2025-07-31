@@ -8,6 +8,8 @@ const certifications = [
   "/certlogo4.JPG",
   "/certlogo5.JPG",
   "/certlogo6.PNG",
+  "/certlogo7.png",
+  "/certlogo8.png",
 ];
 
 const CertificationSlider = () => {

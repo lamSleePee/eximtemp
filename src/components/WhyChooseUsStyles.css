@@ -1,10 +1,12 @@
+.why-choose-us-container{
+  width: 100%;
+  padding: 20px;
+}
 .why-choose-us-section {
   background: #f6fcff;
-  padding: 1.5rem 0.5rem 1.5rem 0.5rem;
-  border-radius: 18px;
-  max-width: 1200px;
-  margin: 2rem auto 1.5rem auto;
-  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.04);
+  padding: 30px;
+  border-radius:30px;
+  border: 3px solid #2a5298;
 }
 
 .why-choose-us-title {
@@ -33,10 +35,12 @@
 .why-choose-us-card {
   background: #e6f0fa;
   border-radius: 16px;
-  padding: 2rem 1rem 1.5rem 1rem;
+  width: 250px;
+  height: 170px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   box-shadow: 0 2px 12px 0 rgba(44, 62, 80, 0.06);
   transition: transform 0.18s, box-shadow 0.18s;
 }

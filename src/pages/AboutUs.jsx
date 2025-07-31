@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Header from "../components/header"; // Adjust path as needed
 import Footer from "../components/footer"; // Adjust path as needed
 import VisionMission from "../components/VisionMission";
+import Founders from "../components/Founders";
 import "./aboutStyles.css"; // Link to the CSS file below
 
 function AboutUs() {
@@ -22,18 +23,9 @@ function AboutUs() {
             <h2>Our Story</h2>
             <p>Exim Pinnacle is a forward-thinking international trade company committed to bridging global markets through ethical, reliable, and high-quality import-export services. With a growing global network and a deep focus on client satisfaction, we work closely with businesses and partners to source, deliver, and distribute products with efficiency and transparency.</p>
             
-            <div className="mission-vision">
-                <div>
-                    <h3>Our Mission</h3>
-                    <p>At Exim Pinnacle, our mission is to deliver world-className export and import solutions with unwavering commitment to quality, reliability, and global compliance. We aim to build lasting partnerships by connecting markets through seamless trade, driven by integrity and customer-focused service.</p>
-                </div>
-                <div>
-                    <h3>Our Vision</h3>
-                    <p>To become a trusted global bridge in international trade—empowering businesses through ethical sourcing, efficient logistics, and consistent value delivery across borders.</p>
-                </div>
-            </div>
         </section>
         <VisionMission/>
+        <Founders/>
         <section  className="sectionabout">
             <h2>What We Do</h2>
             <p>We specialize in sourcing and supplying high-demand products across a range of industries, tailored to meet regional standards and customer expectations.</p>

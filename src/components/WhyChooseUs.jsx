@@ -31,7 +31,7 @@ const features = [
       <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
         <circle cx="24" cy="24" r="24"/>
         <circle cx="24" cy="24" r="10" fill="#fff"/>
-        <circle cx="24" cy="24" r="6" fill="none" stroke="#2a5298" strokeWidth="2"/>
+        <circle cx="24" cy="24" r="6" fill="fff" stroke="#2a5298" strokeWidth="2"/>
         <line x1="24" y1="14" x2="24" y2="34" stroke="#2a5298" strokeWidth="2"/>
         <line x1="14" y1="24" x2="34" y2="24" stroke="#2a5298" strokeWidth="2"/>
       </svg>
@@ -47,6 +47,7 @@ const features = [
 ];
 
 const WhyChooseUs = () => (
+  <div className="why-choose-us-container">
   <section className="why-choose-us-section">
     <h2 className="why-choose-us-title">
       <span className="why-choose-us-title-highlight">Why</span> Choose Us
@@ -60,6 +61,7 @@ const WhyChooseUs = () => (
       ))}
     </div>
   </section>
+  </div>
 );
 
 export default WhyChooseUs; 

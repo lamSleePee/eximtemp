@@ -198,3 +198,7 @@
     }
   }
   
+
+  .footer-outer::-webkit-scrollbar{
+    display: none;
+  }
