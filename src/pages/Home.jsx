@@ -77,7 +77,7 @@ function Home() {
 
 const heroSectionData = [
   {
-    title: `Welcome To Exim Pinnacle Enterprises`,
+    title: `Welcome To Exim Pinnacle`,
     img: `/hero2.jpg`,
     subtext: `Your Export Gateway`,
   },

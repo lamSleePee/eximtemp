@@ -13,6 +13,7 @@
   height: 70px;
   transform: scale(1.1);
   border: none;
+  margin-left: 10px;
 }
 ul{
     list-style: none;
