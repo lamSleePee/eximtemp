@@ -30,10 +30,11 @@ const features = [
     icon: (
       <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
         <circle cx="24" cy="24" r="24"/>
-        <circle cx="24" cy="24" r="10" fill="#fff"/>
-        <circle cx="24" cy="24" r="6" fill="fff" stroke="#2a5298" strokeWidth="2"/>
-        <line x1="24" y1="14" x2="24" y2="34" stroke="#2a5298" strokeWidth="2"/>
-        <line x1="14" y1="24" x2="34" y2="24" stroke="#2a5298" strokeWidth="2"/>
+        <circle cx="24" cy="24" r="16" fill="#fff"/>
+        <path d="M8 24c0-8.84 7.16-16 16-16s16 7.16 16 16-7.16 16-16 16-16-7.16-16-16z" fill="#fff"/>
+        <path d="M24 8c8.84 0 16 7.16 16 16s-7.16 16-16 16-16-7.16-16-16 7.16-16 16-16z" fill="#fff"/>
+        <path d="M24 8v32" stroke="#2a5298" strokeWidth="2"/>
+        <path d="M8 24h32" stroke="#2a5298" strokeWidth="2"/>
       </svg>
     ),
     title: "Global Presence",

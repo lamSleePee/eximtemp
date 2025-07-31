@@ -19,8 +19,8 @@ function CommunityService(){
                     </div>
 
                     <div className="csr-points">
-                        <h3>Dignity for Her</h3>
-                        <p>We provide free sanitary napkins and hygiene kits to women in rural and underserved communities.</p>
+                        <h3>Together We Rise</h3>
+                        <p>From disaster relief to community development, we partner with local organizations to make a lasting difference.</p>
                     </div>
 
                     <div className="csr-points">
