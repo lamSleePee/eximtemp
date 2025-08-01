@@ -87,7 +87,7 @@ function AboutUs() {
                     </Link>
                 </div>
                 <div className="product-item">
-                    <Link className='product-item-name' to={`/products/Biofuels`}>
+                    <Link className='product-item-name' to={`/products/biofuels`}>
                     <i className="fas fa-gas-pump"></i>
                     <p >Advanced Biofuels</p>
                     </Link>

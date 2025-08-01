@@ -14,6 +14,8 @@ function ContactUs() {
           <h2>Get in Touch</h2>
           <p>We’d love to hear from you! Whether you have a question about our products, pricing, or anything else — our team is ready to answer all your questions.</p>
           <p><strong>We'll get back to you within 24 hours.</strong></p>
+
+          <img src="/agreementhandshake.jpg" alt="" />
         </div>
 
         {/* Right Form Section */}

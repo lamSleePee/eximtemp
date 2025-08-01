@@ -1,9 +1,16 @@
 .mainContactus{
   display: flex;
 }
+
 .textContactSection{
   flex: 1fr;
   max-width: 30%;
+}
+
+.contact-text-section>img{
+  max-width: 100%;
+  object-fit: contain;
+  border: none;
 }
 .contact-container {
     max-width: 600px;

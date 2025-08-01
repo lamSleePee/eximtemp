@@ -11,6 +11,10 @@
     overflow: scroll;
   }
   
+ .contactinfo{
+  width: 30%;
+ }
+
   .footer-outer h2 {
     text-align: center;
     font-size: 30px;
@@ -69,7 +73,7 @@
   }
   
   .contactinfo {
-    flex: 2;
+    flex: 2.5;
   }
   
   .socials {
@@ -86,6 +90,17 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: 500;
+  }
+
+  .quicklinks{
+    width: max-content;
+  }
+  .quicklinks>h2{
+    width: max-content;
+  }
+
+  .quicklinks-list{
+    width: max-content;
   }
 
   .license>img{
