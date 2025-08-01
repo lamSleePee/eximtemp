@@ -8,7 +8,14 @@ function HomepageAbout(){
             <div className="home-page-about-text">
                 <h2 className="home-page-about-title">About Us</h2>
                 <p>
-                    Welcome to Exim Pinnacle, your trusted partner in global trade. We specialize in exporting a wide range of high-quality products, including textiles, spices, handicrafts, and more. Our mission is to connect businesses worldwide with the best products from our region, ensuring quality and reliability in every transaction.
+                Exim Pinnacle, established in the year 2025, is a government-registered Merchant Export Company headquartered in Pune, India. Proudly recognized under the MSME framework, we are committed to connecting India's finest products with global markets through reliable, ethical, and efficient export practices.
+<br/>
+Driven by a vision to represent India’s vast production capabilities on the world stage, we specialize in the export of a diverse portfolio of high-quality goods. Our core products include Apparel, Jute Products, Makhana, Leather, Handicrafts, Indian Spices, Egg Powder, Dehydrated Fruits,  Carpets, and Biofuels. Every product we deliver reflects the richness of Indian craftsmanship, sustainability, and global quality standards.
+<br/>
+<br/>
+From sourcing directly from trusted Indian manufacturers to managing end-to-end documentation, logistics, and compliance, we ensure a seamless and transparent export experience for our international buyers. Whether you are a retailer, distributor, or import agent, Exim Pinnacle delivers with excellence — every time.
+<br/> <br/>
+With a growing international footprint and a dedication to trade transparency, Exim Pinnacle is your trusted partner in taking Indian products to the world.
                 </p>
 
                {/*  <p className="why-qn">Why Chose Us?</p>

@@ -1,5 +1,5 @@
 .csr-main-div{
-    height: 800px;
+    height: 600px;
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -20,7 +20,7 @@
     color: green;
     font-size: 60px;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -115,6 +115,7 @@ display: none;
       .csr-points-container {
         grid-template-columns: 1fr; /* single column grid */
         padding: 10px;
+        display: none;
         
       }
     

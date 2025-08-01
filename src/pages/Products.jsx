@@ -17,7 +17,7 @@ const productData = [
     img: "/product2.jpg",
   },
   {
-    name: "Nutraceutical-Grade Makhana",
+    name: "Makhana",
     slug: "makhana",
     img: "/product3.jpg",
   },
