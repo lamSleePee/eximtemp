@@ -194,18 +194,18 @@
 
   /* Hero Section */
   .heroMain {
-    height: 100vh; /* Full height on mobile */
+    height: 30vh; /* Reduced height on mobile */
   }
   
   /* Ensure Slick slider containers take full height */
   .heroSection .slick-slider,
   .heroSection .slick-list,
   .heroSection .slick-track {
-    height: 100vh !important;
+    height: 30vh !important;
   }
   
   .heroSection .slick-slide {
-    height: 100vh !important;
+    height: 30vh !important;
   }
   
   .heroImage img {
