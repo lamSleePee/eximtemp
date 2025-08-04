@@ -77,14 +77,14 @@ function Home() {
 
 const heroSectionData = [
   {
-    title: `Welcome To Exim Pinnacle`,
+    title: `Global Trade Excellence`,
     img: `/hero2.jpg`,
-    subtext: `Your Export Gateway`,
+    subtext: `Connecting India to the World with Premium Exports`,
   },
   {
-    title: `India's Best Exporters`,
+    title: `Your Trusted Export Partner`,
     img: `/hero4.jpg`,
-    subtext: `for Apparel & Textile Solutions and more`,
+    subtext: `Quality Products, Reliable Solutions, Global Reach`,
   },
 ];
 

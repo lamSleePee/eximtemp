@@ -134,6 +134,7 @@ ul{
       height: 70px;
       transform: scale(1);
       border: none;
+      margin-left: 0px; /* Reset logo position on mobile */
     }
   
     /* Hide full nav by default on mobile */

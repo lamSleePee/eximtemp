@@ -1,6 +1,123 @@
 export const blogPosts = [
   {
     id: 1,
+    slug: "india-uk-free-trade-deal-2025",
+    title: "India–UK Free Trade Deal: A Landmark Shift in Global Trade",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    excerpt: "Exclusive update on the historic India-UK Free Trade Agreement signed during PM Modi's UK visit, marking India's first comprehensive trade deal with a European country.",
+    content: `
+      <h2>India–UK Free Trade Deal: A Landmark Shift in Global Trade</h2>
+      
+      <p><strong>🔔 Exclusive Update from PM Modi's UK Visit</strong></p>
+      
+      <p>During Prime Minister Narendra Modi's two-day state visit to the UK in July 2025, India and Britain formally signed a major Free Trade Agreement (FTA). This historic pact marks India's first comprehensive trade deal with a European country and the UK's most significant since Brexit.</p>
+      
+      <h3>📦 What the Agreement Covers</h3>
+      
+      <h4>Tariff Reductions:</h4>
+      <ul>
+        <li>Indian duties on UK whisky and gin drop from 150% to 75% immediately, gradually falling to ~40% over 10 years</li>
+        <li>Auto tariffs on UK cars decrease from over 100% to 10%, under a phased quota system favoring EVs and hybrids</li>
+      </ul>
+      
+      <h4>Indian Exports:</h4>
+      <ul>
+        <li>99% of Indian exports to the UK—including textiles, gems & jewellery, leather, and footwear—will now be duty‑free</li>
+        <li>Agriculture, marine and processed foods gain new access: up to 95% duty relief on farm goods, and zero duty on marine exports</li>
+      </ul>
+      
+      <h4>Visa & Services:</h4>
+      <ul>
+        <li>Indian professionals (e.g. chefs, yoga instructors, artists) get access to temporary service visas—up to around 1,800 professionals</li>
+        <li>A Double Contributions Convention means Indians working in the UK won't pay both social security systems for up to 3 years, benefiting approx 75,000 workers annually</li>
+      </ul>
+      
+      <h4>Investment & Procurement:</h4>
+      <ul>
+        <li>UK firms gain access to smaller-scale Indian Government procurement tenders (non-sensitive contracts worth over ₹2 billion) covering thousands of opportunities annually</li>
+        <li>Additionally, nearly £6 billion in UK investment across tech, dairy, aerospace, and beyond was announced alongside the deal</li>
+      </ul>
+      
+      <h3>🧮 Trade Impact & Economic Outlook</h3>
+      
+      <p>The deal aims to increase bilateral trade by ~$34–40 billion annually by 2040, boosting both economies.</p>
+      
+      <p>For the UK, exports to India (whisky, gin, cars, etc.) will grow substantially. For India, sectors like textiles, gems, and warehouse engineering goods could double UK-bound exports by 2026–30.</p>
+      
+      <p>MSMEs across Gujarat, Maharashtra, Tamil Nadu, and UP may see a boom in export volumes and jobs, especially in textiles, leather, chemicals, and engineering goods.</p>
+      
+      <h3>⚠️ Risks, Challenges & Caveats</h3>
+      
+      <ul>
+        <li><strong>Sensitive sectors protected:</strong> agriculture (dairy, apples), dairy, and a few others remain excluded from liberalization</li>
+        <li><strong>Compliance and competition risks:</strong> MSMEs must meet new UK regulatory, certification, and sustainability standards. Some face new competition in auto components, electronics and dairy products</li>
+        <li><strong>Carbon Border Adjustment Mechanism (CBAM):</strong> may impact industries like steel and aluminium from 2027 onwards, costing margins unless carbon controls improve</li>
+        <li><strong>Ongoing delay:</strong> over a bilateral investment treaty (BIT) and social security agreement means regulatory uncertainty could linger</li>
+      </ul>
+      
+      <h3>✨ Why This Matters: Key Benefits</h3>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f5f5f5;">
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Benefit</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">India's Gain</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">UK's Gain</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid #ddd; padding: 12px;"><strong>Tariff Cuts</strong></td>
+            <td style="border: 1px solid #ddd; padding: 12px;">99% duty-free access for Indian exports</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Lower import duties on UK whiskey, gin, cars</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ddd; padding: 12px;"><strong>Market Access</strong></td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Opens up UK market for MSMEs</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Access to large-scale Indian procurements</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ddd; padding: 12px;"><strong>Talent Mobility</strong></td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Visa access for Indian professionals</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Access to Indian services workforce</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ddd; padding: 12px;"><strong>Investment</strong></td>
+            <td style="border: 1px solid #ddd; padding: 12px;">UK investments in clean tech and pharma</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Tenders and exports to a fast-growing market</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ddd; padding: 12px;"><strong>Strategic Model</strong></td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Blueprint for upcoming US, EU FTAs</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Reinforces UK's post-Brexit trade stance</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p>The FTA sends a clear signal: India is embracing a pro-investor, export-led growth strategy, while the UK re-engages with a rising global power after Brexit.</p>
+      
+      <h3>✅ What It Means for Businesses & Content Creators</h3>
+      
+      <ul>
+        <li><strong>Importers & exporters</strong> should revisit product planning: higher UK whisky or car imports may become viable, while Indian exporters can compete aggressively in UK markets</li>
+        <li><strong>Logistics and compliance teams</strong> need to adapt to new Rules of Origin, sustainability standards, and certification norms</li>
+        <li><strong>SEO and marketing-savvy businesses</strong> should optimize content around keywords like "India UK trade deal benefits", "whisky tariff reduction India", "Indian textile exports UK access", and "Indian professionals UK visas" for high discoverability</li>
+        <li><strong>Bloggers and media outlets</strong> covering MSME success stories or new market entry strategies should leverage this agreement as a case study</li>
+      </ul>
+      
+      <h3>🎯 Final Thoughts</h3>
+      
+      <p>The India–UK Free Trade Agreement, signed on July 24, 2025, reimagines bilateral economic ties by significantly reducing tariffs, opening services, and boosting talent flows. With 99% of Indian exports to the UK duty-free, and major reductions on British imports into India, this pact sets a new benchmark for India's trade policy and UK's global trade roadmap.</p>
+      
+      <p>As implementation proceeds (expected mid‑2026), businesses and content creators alike have a clear opportunity: shape narratives and strategies around this historic transition.</p>
+      
+      <p><em>Sources: The Economic Times, Reuters, AP News, Moneycontrol, The Guardian</em></p>
+    `,
+    date: "2025-07-25",
+    author: "Exim Pinnacle Team"
+  },
+  {
+    id: 3,
     slug: "indian-spices-global-market",
     title: "The Rise of Indian Spices in Global Markets",
     image: "/turmeric.jpg",
@@ -123,7 +240,7 @@ export const blogPosts = [
     author: "Exim Pinnacle Team"
   },
   {
-    id: 3,
+    id: 4,
     slug: "jute-products-eco-friendly-alternative",
     title: "Jute Products: The Eco-Friendly Alternative Taking Over Global Markets",
     image: "/productbg.png",

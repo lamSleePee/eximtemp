@@ -6,7 +6,6 @@
 
 .viewerheight {
   height: auto; /* Flexible height to prevent clipping */
-  min-height: 100vh; /* Full viewport minimum */
   overflow: visible; /* Allow scrolling */
 }
 
@@ -195,7 +194,22 @@
 
   /* Hero Section */
   .heroMain {
-    height: 50vh; /* Even shorter for phones to show more content */
+    height: 100vh; /* Full height on mobile */
+  }
+  
+  /* Ensure Slick slider containers take full height */
+  .heroSection .slick-slider,
+  .heroSection .slick-list,
+  .heroSection .slick-track {
+    height: 100vh !important;
+  }
+  
+  .heroSection .slick-slide {
+    height: 100vh !important;
+  }
+  
+  .heroImage img {
+    object-fit: cover !important;
   }
 
   .heroText {
