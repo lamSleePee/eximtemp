@@ -11,6 +11,10 @@ function Footer() {
           <i className="fa-solid fa-house"></i>
           <a className="footercoms" href="https://www.google.com/maps/place/Exim+Pinnacle+Enterprises/...">Exim Pinnacle Enterprises, TBL Space, Balewadi Plaza, Balewadi, Pune, Maharashtra 411025</a>
         </p>
+        <p className="address">
+          <i className="fa-solid fa-house"></i>
+          <a className="footercoms" href="https://www.google.com/maps/search/37-Satakunnankatu,Tampere,Finland-33210">37- Satakunnankatu, Tampere, Finland-33210</a>
+        </p>
         <p className="email">
           <i className="fa-solid fa-envelope"></i>
           <a className="footercoms" href="mailto:Info@eximpinnacle.com">Info@eximpinnacle.com</a>
