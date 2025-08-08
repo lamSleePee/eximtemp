@@ -24,6 +24,14 @@
   .footer-outer p {
     font-size: 20px;
     margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .footer-outer p i {
+    margin-right: 8px;
+    min-width: 20px;
   }
   
   .socials {
